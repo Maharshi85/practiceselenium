@@ -18,5 +18,6 @@ public class Practice_One {
 		dri.findElement(By.name("user_name")).sendKeys("admin");
 		dri.findElement(By.name("user_password")).sendKeys("password");
 		dri.findElement(By.id("submitButton")).click();
+		//push and pull done
 	}
 }
